@@ -2,12 +2,13 @@
 
 My name's Peter, and I like to code and stuff.
 
-## Programming languages
+A lot of my code isn't available publicly, but some of it is; links and description provided below.
 
-I don't write code for a living, but I do write code as part of my job, and also for fun.
+## Programming languages
 
 ### Shell scripts
 
+<details>
 Most of the code I write is shell scripts. Why?
 1. Faster to write
 2. Less code
@@ -25,7 +26,8 @@ Instead I'll just say that the idea that *"if it's more than 100 lines of Shell,
 makes as much sense as *"if it's more than 100 lines of Python, write it in Lisp"*.
 
 (*don't @ me, Lisp people.*)
-
+</details>
+ 
 #### My Shell Script Repos
 
  - **[Terraformsh](https://github.com/pwillis-els/terraformsh)** - This is a wrapper for Terraform. Yes, we've all written one of these. But this one is probably the best wrapper for Terraform you'll ever use. It's written to be a useful systems admin tool, unlike Terraform, and it's simple and DRY, unlike Terragrunt.
@@ -46,6 +48,7 @@ makes as much sense as *"if it's more than 100 lines of Python, write it in Lisp
  
 ### Python scripts
 
+<details>
 The rest of the code I write is mostly Python. Why?
 1. Everybody else can read/write it
 
@@ -54,11 +57,55 @@ I didn't, I probably wouldn't get hired. But on the scale of tragedies in my lif
 this is one of the smaller ones, so I deal. I'm halfway decent at it, but I don't
 get very fancy. When I see multiple lambdas and annotations in one function, I think
 of all the people in my life who have given me grief over shell one-liners...
-
+</details>
 
 #### My Python Repos
 
+ - **[dump-google-keep-notes](https://github.com/peterwwillis/dump-google-keep-notes)** - Dumps Google Keep to Markdown files with front matter for the metadata.
+ - **[bump-version-yaml](https://github.com/peterwwillis/bump-version-yaml)** - Bump the version number in a YAML file, using a schema file to determine what part of the YAML gets updated, and how.
+ - **[fix-atlassian-links](https://github.com/pwillis-els/fix-atlassian-links)** - Basically just search and replace on Confluence pages.
+ - **[junkdrawer](https://github.com/peterwwillis/junkdrawer)** - Smaller scripts and junk.
 
+
+
+### Perl scripts
+
+<details>
+I grew up with Perl, and I still love it. If I need to get something complex and
+powerful done super quickly, and nobody at work needs to maintain it, Perl is my go-to.
+ 
+I rarely use it now, but every now and then I find a use for it due to its incredible
+simplicity at processing data.
+ 
+Honestly, it's no worse than Python (I would argue much better), but it has a bad reputation
+because people who never learned how to program - or even form coherent ideas - could still
+string together Perl code that would actualy run. Personally I think that's a credit to Perl,
+but good luck convincing anyone else of that.
+</details>
+
+#### My Perl Repos
+
+ - **[junkdrawer](https://github.com/peterwwillis/junkdrawer)** - Smaller scripts and junk.
+
+
+### C code
+
+<details>
+After I learned Perl, I learned C. I was never fantastic at it, but it served many purposes for me.
+Mostly having the ability to write or modify patches for programs and debug them with gdb.
+ 
+One of the first projects I created was an init replacement. I wanted a CD-bootable Linux distro
+that would boot as fast as possible to bootstrap Beowulf clusters, so I wrote it in C. Later the
+source code was taken by someone, modified, and put as a binary into their own distro, even though
+my code was covered by GPL v2... I guess that's a compilement of sorts?? 
+ 
+I've even written an entire CGI web frontend for a floppy disk Linux router in C.
+I... don't recommend it.
+</details>
+ 
+#### My C Repos
+
+ - **[etherdump](https://github.com/peterwwillis/etherdump)** - A tiny tcpdump, with no dynamic memory. Packet processing is built-in, not from libpcap. Useful on embedded machines, or just to learn about tcp/ip protocols.
 
 
 <!--
