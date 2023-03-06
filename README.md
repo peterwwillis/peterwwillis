@@ -45,6 +45,7 @@ makes as much sense as *"if it's more than 100 lines of Python, write it in Lisp
  - **[test.sh](https://github.com/peterwwillis/test.sh)** - A minimal test framework in Shell.
  - **[shell distributed system](https://github.com/peterwwillis/shell-distributed-system)** - A toy that is unfinished. The intent is to basically rewrite Kubernetes in Shell, but this time make it not suck. Intended to showcase how to design and implement distributed systems.
  - **[repeat.sh](https://github.com/peterwwillis/repeat.sh)** - Ever wanted to run a couple commands over and over again with some added features? Now it's easier!
+ - **[twoman.sh](https://github.com/psypete/public-bin/blob/public-bin/src/security/twoman.sh)** - An example of a two-man authentication file crypto system.
  - **[junkdrawer](https://github.com/peterwwillis/junkdrawer)** - Smaller scripts and junk.
  
  
@@ -88,6 +89,19 @@ but good luck convincing anyone else of that.
 
 #### My Perl Repos
 
+ - **[create-dvd](https://github.com/psypete/public-bin/blob/public-bin/src/create-dvd)** - Command-line wrapper to make it easier to burn a video DVD
+ - **[findphonewords.pl](https://github.com/psypete/public-bin/blob/public-bin/src/findphonewords.pl)** - Find English words in phone numbers
+ - **[ldapcachder.pl](https://github.com/psypete/public-bin/blob/public-bin/src/networking/ldapcacher.pl)** - A rudimentary LDAP proxy. Caches and pools connections to an LDAP server so you don't hit connection limits.
+ - **[print_network_map.pl](https://github.com/psypete/public-bin/blob/public-bin/src/networking/print_network_map.pl)** - Given an NMAP XML file, print a list of all the routes and hosts found.
+ - **[pop3download.pl](https://github.com/psypete/public-bin/blob/public-bin/src/pop3download/pop3download-0.8.pl)** - A POP3 and IMAPv4 mail fetcher. Like Fetchmail, but less buggy.
+ - **[user_login.pl](https://github.com/psypete/public-bin/blob/public-bin/src/system/auth_login.pl)** - User authentication for OpenVPN.
+ - **[bluelock.pl](https://github.com/psypete/public-bin/blob/public-bin/src/system/bluelock.pl)** - Lock a desktop when a Bluetooth device goes out of range.
+ - **[deldupes.pl](https://github.com/psypete/public-bin/blob/public-bin/src/system/deldupes.pl)** - Delete duplicate files
+ - **[dumpfd.pl](https://github.com/psypete/public-bin/blob/public-bin/src/system/dumpfd.pl)** - Dump the file descriptors of a running process
+ - **[encsh.pl](https://github.com/psypete/public-bin/blob/public-bin/src/system/encsh.pl)** - Turn any interpreted script into an encrypted program that never stores its source code on disk
+ - **[meminfo.pl](https://github.com/psypete/public-bin/blob/public-bin/src/system/meminfo.pl)** - Summarize memory use of Linux processes
+ - **[piratespeak.pl](https://github.com/psypete/public-bin/blob/public-bin/src/system/piratespeak.pl)** - Substitute words and phrases with pirate speak
+ - **[dynamic-dnsmasq.pl](https://github.com/liquidm/dnsmasq/blob/master/contrib/dynamic-dnsmasq/dynamic-dnsmasq.pl)** - Basically this is a Dynamic DNS HTTP API backend, kind of. It allows dnsmasq to be updated via a Dynamic DNS client. I can't believe this is still around... I wrote this nearly 20 years ago!
  - **[junkdrawer](https://github.com/peterwwillis/junkdrawer)** - Smaller scripts and junk.
 
 
@@ -109,6 +123,8 @@ I... don't recommend it.
 #### My C Repos
 
  - **[etherdump](https://github.com/peterwwillis/etherdump)** - A tiny tcpdump, with no dynamic memory. Packet processing is built-in, not from libpcap. Useful on embedded machines, or just to learn about tcp/ip protocols.
+ - **[ddnsu](https://sourceforge.net/projects/psydev/files/ddnsu/0.3.5/)** - A Dynamic DNS update client supporting No-IP and DynDNS. Pretty small, suitable for embedded environments.
+ - **[eject](https://github.com/mirror/busybox/blob/master/util-linux/eject.c)** - The eject applet for Busybox
 
 
 <!--
