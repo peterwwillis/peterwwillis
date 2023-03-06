@@ -10,6 +10,7 @@ A lot of my code isn't available publicly, but some of it is; links and descript
 
 <details>
 Most of the code I write is shell scripts. Why?
+ 
 1. Faster to write
 2. Less code
 3. Most systems can run a portably-written shell script
@@ -17,6 +18,7 @@ Most of the code I write is shell scripts. Why?
 5. Good enough for most tasks
 
 But I'm not some crazy fanatic. There's obvious times when you shouldn't use a shell script, like:
+ 
 1. When it would be better to write in a different language
 
 I could write a book explaining when you should use what language for what purpose,
@@ -50,6 +52,7 @@ makes as much sense as *"if it's more than 100 lines of Python, write it in Lisp
 
 <details>
 The rest of the code I write is mostly Python. Why?
+ 
 1. Everybody else can read/write it
 
 Python is a terrible language made by terrible people. I only use it because if
