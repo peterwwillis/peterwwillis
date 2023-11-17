@@ -15,33 +15,33 @@ for corporate Linux distributions.
 Some of my projects have been lost to time, and some are closed-source,
 but below is some of the FOSS stuff I could still find.
 
-## Programming languages
 
-### Shell
- - **[Terraformsh](https://github.com/pwillis-els/terraformsh)** - This is a wrapper for Terraform. Yes, we've all written one of these. But this one is probably the best wrapper for Terraform you'll ever use. It's written to be a useful systems admin tool, unlike Terraform, and it's simple and DRY, unlike Terragrunt.
- - **[jenkins-bootstrap.sh](https://github.com/pwillis-els/jenkins-bootstrap.sh)** - Have you ever needed to set up Jenkins before? This script will do it for you - but, like, the way it **should** be set up, from the start. I hate Jenkins so much. Hopefully this saves you some time and stress.
- - **[packersh](https://github.com/pwillis-els/packersh)** - Like the Terraform wrapper, but for Packer.
- - **[attach_ebs.sh](https://github.com/pwillis-els/attach_ebs.sh)** - Ever needed to attach an EBS volume to an EC2 instance? Here's a better way.
- - **[patch-solr-log4j](https://github.com/pwillis-els/patch-solr-log4j)** - <s>If</s> When Log4j comes back, patch it quickly.
- - **[jenkins-plugin-manager](https://github.com/pwillis-els/jenkins-plugin-manager)** - Jenkins is so braindead, its "new" plugin manager can't resolve dependencies properly. This will help you manage Jenkins plugins better.
- - **[newrelic_api_cli](https://github.com/pwillis-els/newrelic_api_cli)** - Back when I was forced to use New Relic *((shudder))*, they didn't support their whole API in Terraform, so you still had to script stuff directly with their API just to create alerts triggered by two locations. I threw this together so I could script more stuff with their API.
- - **[direnvsh](https://github.com/peterwwillis/direnvsh)** - Ever wanted to run a command while inheriting environment variables recursively from a reverse hierarchy? Well now you can!
- - **[bashdag](https://github.com/peterwwillis/bashdag)** - A directed acyclic graph in Bash. (It doesn't work, because I suck at algorithms)
- - **[clinst](https://github.com/peterwwillis/clinst)** - Download and install statically-compiled programs, and then select specific versions of them to run from different directories. This is intentionally horrible to read/write, please don't read the source code.
- - **[test.sh](https://github.com/peterwwillis/test.sh)** - A minimal test framework in Shell.
- - **[shell distributed system](https://github.com/peterwwillis/shell-distributed-system)** - A toy that is unfinished. The intent is to basically rewrite Kubernetes in Shell, but this time make it not suck. Intended to showcase how to design and implement distributed systems.
- - **[repeat.sh](https://github.com/peterwwillis/repeat.sh)** - Ever wanted to run a couple commands over and over again with some added features? Now it's easier!
- - **[twoman.sh](https://github.com/psypete/public-bin/blob/public-bin/src/security/twoman.sh)** - An example of a two-man authentication file crypto system.
- - **[junkdrawer](https://github.com/peterwwillis/junkdrawer)** - Smaller scripts and junk.
- 
- 
+## Programming
+
+### Helm
+ - **[docker-in-docker](https://artifacthub.io/packages/helm/docker-in-docker/docker-in-docker)** - A Helm chart to install a Docker-in-Docker service in a Kubernetes cluster
+
 ### Python
  - **[dump-google-keep-notes](https://github.com/peterwwillis/dump-google-keep-notes)** - Dumps Google Keep to Markdown files with front matter for the metadata.
  - **[bump-version-yaml](https://github.com/peterwwillis/bump-version-yaml)** - Bump the version number in a YAML file, using a schema file to determine what part of the YAML gets updated, and how.
- - **[fix-atlassian-links](https://github.com/pwillis-els/fix-atlassian-links)** - Basically just search and replace on Confluence pages.
- - **[junkdrawer](https://github.com/peterwwillis/junkdrawer)** - Smaller scripts and junk.
+ - **[fix-atlassian-links](https://github.com/pwillis-els/fix-atlassian-links)** - Simple search and replace on Confluence pages.
+ - **[junkdrawer](https://github.com/peterwwillis/junkdrawer)** - Small miscellaneous scripts.
 
-
+### Shell
+ - **[Terraformsh](https://github.com/pwillis-els/terraformsh)** - A wrapper for Terraform to provide hierarchical, DRY terraform configs, and sane best-practices. Simpler than Terragrunt.
+ - **[packersh](https://github.com/pwillis-els/packersh)** - Like the Terraform wrapper, but for Packer.
+ - **[jenkins-bootstrap.sh](https://github.com/pwillis-els/jenkins-bootstrap.sh)** - Ever needed to set up Jenkins? This script will do everything for you as code according to best practices.
+ - **[attach_ebs.sh](https://github.com/pwillis-els/attach_ebs.sh)** - Ever needed to attach an EBS volume to an EC2 instance at boot time?
+ - **[direnvsh](https://github.com/peterwwillis/direnvsh)** - Ever wanted to run a command while inheriting environment variables recursively from a reverse hierarchy?
+ - **[repeat.sh](https://github.com/peterwwillis/repeat.sh)** - Ever wanted to run a couple commands over and over again with some added features?
+ - **[patch-solr-log4j](https://github.com/pwillis-els/patch-solr-log4j)** - <s>If</s> When Log4j vulnerability comes back, patch it quickly.
+ - **[jenkins-plugin-manager](https://github.com/pwillis-els/jenkins-plugin-manager)** - Jenkins's new plugin manager doesn't resolve dependencies properly.
+ - **[newrelic_api_cli](https://github.com/pwillis-els/newrelic_api_cli)** - NewRelic didn't used to support their whole API in Terraform, so you still had to script stuff directly.
+ - **[twoman.sh](https://github.com/psypete/public-bin/blob/public-bin/src/security/twoman.sh)** - An example of a two-man authentication file crypto system.
+ - **[test.sh](https://github.com/peterwwillis/test.sh)** - A minimal test framework in Bourne Shell.
+ - **[clinst](https://github.com/peterwwillis/clinst)** - Download and install statically-compiled programs, and then select specific versions of them to run from different directories.
+ - **[junkdrawer](https://github.com/peterwwillis/junkdrawer)** - Small miscellaneous scripts.
+ 
 ### Perl
  - **[create-dvd](https://github.com/psypete/public-bin/blob/public-bin/src/create-dvd)** - Command-line wrapper to make it easier to burn a video DVD
  - **[findphonewords.pl](https://github.com/psypete/public-bin/blob/public-bin/src/findphonewords.pl)** - Find English words in phone numbers
@@ -56,7 +56,7 @@ but below is some of the FOSS stuff I could still find.
  - **[meminfo.pl](https://github.com/psypete/public-bin/blob/public-bin/src/system/meminfo.pl)** - Summarize memory use of Linux processes
  - **[piratespeak.pl](https://github.com/psypete/public-bin/blob/public-bin/src/system/piratespeak.pl)** - Substitute words and phrases with pirate speak
  - **[dynamic-dnsmasq.pl](https://github.com/liquidm/dnsmasq/blob/master/contrib/dynamic-dnsmasq/dynamic-dnsmasq.pl)** - A Dynamic DNS HTTP API backend. It allows dnsmasq to be updated via a Dynamic DNS client. One of the first pieces of OSS code I wrote.
- - **[junkdrawer](https://github.com/peterwwillis/junkdrawer)** - Smaller scripts and junk.
+ - **[junkdrawer](https://github.com/peterwwillis/junkdrawer)** - Small miscellaneous scripts.
 
 
 ### C code
